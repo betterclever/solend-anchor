@@ -1,0 +1,12 @@
+[package]
+name = "solend-anchor"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anchor-lang = "0.21.0"
+solend-token-lending = { git = "https://github.com/solendprotocol/solana-program-library", package = "spl-token-lending" }
+
+[features]
